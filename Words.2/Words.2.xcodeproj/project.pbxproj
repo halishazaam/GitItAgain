@@ -1,0 +1,390 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1906DF7E180E6D7100105FE5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1906DF7D180E6D7100105FE5 /* UIKit.framework */; };
+		1906DF80180E6D7100105FE5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1906DF7F180E6D7100105FE5 /* Foundation.framework */; };
+		1906DF82180E6D7100105FE5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1906DF81180E6D7100105FE5 /* CoreGraphics.framework */; };
+		1906DF84180E6D7100105FE5 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1906DF83180E6D7100105FE5 /* CoreData.framework */; };
+		1906DF8A180E6D7200105FE5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1906DF88180E6D7200105FE5 /* InfoPlist.strings */; };
+		1906DF8C180E6D7200105FE5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1906DF8B180E6D7200105FE5 /* main.m */; };
+		1906DF90180E6D7200105FE5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1906DF8F180E6D7200105FE5 /* AppDelegate.m */; };
+		1906DF92180E6D7200105FE5 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 1906DF91180E6D7200105FE5 /* Default.png */; };
+		1906DF94180E6D7200105FE5 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1906DF93180E6D7200105FE5 /* Default@2x.png */; };
+		1906DF96180E6D7300105FE5 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1906DF95180E6D7300105FE5 /* Default-568h@2x.png */; };
+		1906DF99180E6D7300105FE5 /* Words_2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1906DF97180E6D7300105FE5 /* Words_2.xcdatamodeld */; };
+		1906DFA1180E6E1500105FE5 /* TDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1906DFA0180E6E1500105FE5 /* TDViewController.m */; };
+		1906DFA3180E6E4100105FE5 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1906DFA2180E6E4100105FE5 /* Storyboard.storyboard */; };
+		1906DFA6180E78ED00105FE5 /* Word.m in Sources */ = {isa = PBXBuildFile; fileRef = 1906DFA5180E78ED00105FE5 /* Word.m */; };
+		1906DFA9180E812C00105FE5 /* TDAddWordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1906DFA8180E812C00105FE5 /* TDAddWordViewController.m */; };
+		1979D44518108A3300DE84F6 /* SeeWordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1979D44418108A3300DE84F6 /* SeeWordViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		199D5B9F1816FFE80048BEC6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 19BD4BB31810B44E008A7780 /* CHCSVParser.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8DD76FA10486AA7600D96B5E;
+			remoteInfo = CHCSVParser;
+		};
+		199D5BA11816FFE80048BEC6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 19BD4BB31810B44E008A7780 /* CHCSVParser.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 557FD0531204A70D009FCDBA;
+			remoteInfo = "Unit Tests";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1906DF7A180E6D7100105FE5 /* Words.2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Words.2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1906DF7D180E6D7100105FE5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1906DF7F180E6D7100105FE5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1906DF81180E6D7100105FE5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1906DF83180E6D7100105FE5 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		1906DF87180E6D7200105FE5 /* Words.2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Words.2-Info.plist"; sourceTree = "<group>"; };
+		1906DF89180E6D7200105FE5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1906DF8B180E6D7200105FE5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1906DF8D180E6D7200105FE5 /* Words.2-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Words.2-Prefix.pch"; sourceTree = "<group>"; };
+		1906DF8E180E6D7200105FE5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1906DF8F180E6D7200105FE5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1906DF91180E6D7200105FE5 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		1906DF93180E6D7200105FE5 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		1906DF95180E6D7300105FE5 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		1906DF98180E6D7300105FE5 /* Words_2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Words_2.xcdatamodel; sourceTree = "<group>"; };
+		1906DF9F180E6E1500105FE5 /* TDViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDViewController.h; sourceTree = "<group>"; };
+		1906DFA0180E6E1500105FE5 /* TDViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDViewController.m; sourceTree = "<group>"; };
+		1906DFA2180E6E4100105FE5 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		1906DFA4180E78ED00105FE5 /* Word.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Word.h; sourceTree = "<group>"; };
+		1906DFA5180E78ED00105FE5 /* Word.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Word.m; sourceTree = "<group>"; };
+		1906DFA7180E812C00105FE5 /* TDAddWordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDAddWordViewController.h; sourceTree = "<group>"; };
+		1906DFA8180E812C00105FE5 /* TDAddWordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDAddWordViewController.m; sourceTree = "<group>"; };
+		1979D44318108A3300DE84F6 /* SeeWordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SeeWordViewController.h; sourceTree = "<group>"; };
+		1979D44418108A3300DE84F6 /* SeeWordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SeeWordViewController.m; sourceTree = "<group>"; };
+		19BD4BB31810B44E008A7780 /* CHCSVParser.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CHCSVParser.xcodeproj; path = "CHCSVParser-master 2/CHCSVParser.xcodeproj"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1906DF77180E6D7100105FE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1906DF7E180E6D7100105FE5 /* UIKit.framework in Frameworks */,
+				1906DF80180E6D7100105FE5 /* Foundation.framework in Frameworks */,
+				1906DF82180E6D7100105FE5 /* CoreGraphics.framework in Frameworks */,
+				1906DF84180E6D7100105FE5 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1906DF71180E6D7100105FE5 = {
+			isa = PBXGroup;
+			children = (
+				19BD4BB31810B44E008A7780 /* CHCSVParser.xcodeproj */,
+				1906DF85180E6D7100105FE5 /* Words.2 */,
+				1906DF7C180E6D7100105FE5 /* Frameworks */,
+				1906DF7B180E6D7100105FE5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1906DF7B180E6D7100105FE5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1906DF7A180E6D7100105FE5 /* Words.2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1906DF7C180E6D7100105FE5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1906DF7D180E6D7100105FE5 /* UIKit.framework */,
+				1906DF7F180E6D7100105FE5 /* Foundation.framework */,
+				1906DF81180E6D7100105FE5 /* CoreGraphics.framework */,
+				1906DF83180E6D7100105FE5 /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1906DF85180E6D7100105FE5 /* Words.2 */ = {
+			isa = PBXGroup;
+			children = (
+				1906DF8E180E6D7200105FE5 /* AppDelegate.h */,
+				1906DF8F180E6D7200105FE5 /* AppDelegate.m */,
+				1906DF97180E6D7300105FE5 /* Words_2.xcdatamodeld */,
+				1906DFA4180E78ED00105FE5 /* Word.h */,
+				1906DFA5180E78ED00105FE5 /* Word.m */,
+				1906DF86180E6D7200105FE5 /* Supporting Files */,
+				1906DF9F180E6E1500105FE5 /* TDViewController.h */,
+				1906DFA0180E6E1500105FE5 /* TDViewController.m */,
+				1906DFA2180E6E4100105FE5 /* Storyboard.storyboard */,
+				1979D44318108A3300DE84F6 /* SeeWordViewController.h */,
+				1979D44418108A3300DE84F6 /* SeeWordViewController.m */,
+				1906DFA7180E812C00105FE5 /* TDAddWordViewController.h */,
+				1906DFA8180E812C00105FE5 /* TDAddWordViewController.m */,
+			);
+			path = Words.2;
+			sourceTree = "<group>";
+		};
+		1906DF86180E6D7200105FE5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1906DF87180E6D7200105FE5 /* Words.2-Info.plist */,
+				1906DF88180E6D7200105FE5 /* InfoPlist.strings */,
+				1906DF8B180E6D7200105FE5 /* main.m */,
+				1906DF8D180E6D7200105FE5 /* Words.2-Prefix.pch */,
+				1906DF91180E6D7200105FE5 /* Default.png */,
+				1906DF93180E6D7200105FE5 /* Default@2x.png */,
+				1906DF95180E6D7300105FE5 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		199D5B9B1816FFE80048BEC6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				199D5BA01816FFE80048BEC6 /* CHCSVParser */,
+				199D5BA21816FFE80048BEC6 /* Unit Tests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1906DF79180E6D7100105FE5 /* Words.2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1906DF9C180E6D7300105FE5 /* Build configuration list for PBXNativeTarget "Words.2" */;
+			buildPhases = (
+				1906DF76180E6D7100105FE5 /* Sources */,
+				1906DF77180E6D7100105FE5 /* Frameworks */,
+				1906DF78180E6D7100105FE5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Words.2;
+			productName = Words.2;
+			productReference = 1906DF7A180E6D7100105FE5 /* Words.2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1906DF72180E6D7100105FE5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Houma Language Project";
+			};
+			buildConfigurationList = 1906DF75180E6D7100105FE5 /* Build configuration list for PBXProject "Words.2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1906DF71180E6D7100105FE5;
+			productRefGroup = 1906DF7B180E6D7100105FE5 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 199D5B9B1816FFE80048BEC6 /* Products */;
+					ProjectRef = 19BD4BB31810B44E008A7780 /* CHCSVParser.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				1906DF79180E6D7100105FE5 /* Words.2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		199D5BA01816FFE80048BEC6 /* CHCSVParser */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = CHCSVParser;
+			remoteRef = 199D5B9F1816FFE80048BEC6 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		199D5BA21816FFE80048BEC6 /* Unit Tests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Unit Tests.octest";
+			remoteRef = 199D5BA11816FFE80048BEC6 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1906DF78180E6D7100105FE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1906DF8A180E6D7200105FE5 /* InfoPlist.strings in Resources */,
+				1906DF92180E6D7200105FE5 /* Default.png in Resources */,
+				1906DF94180E6D7200105FE5 /* Default@2x.png in Resources */,
+				1906DF96180E6D7300105FE5 /* Default-568h@2x.png in Resources */,
+				1906DFA3180E6E4100105FE5 /* Storyboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1906DF76180E6D7100105FE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1906DF8C180E6D7200105FE5 /* main.m in Sources */,
+				1906DF90180E6D7200105FE5 /* AppDelegate.m in Sources */,
+				1906DF99180E6D7300105FE5 /* Words_2.xcdatamodeld in Sources */,
+				1906DFA1180E6E1500105FE5 /* TDViewController.m in Sources */,
+				1906DFA6180E78ED00105FE5 /* Word.m in Sources */,
+				1906DFA9180E812C00105FE5 /* TDAddWordViewController.m in Sources */,
+				1979D44518108A3300DE84F6 /* SeeWordViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1906DF88180E6D7200105FE5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1906DF89180E6D7200105FE5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1906DF9A180E6D7300105FE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1906DF9B180E6D7300105FE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1906DF9D180E6D7300105FE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Words.2/Words.2-Prefix.pch";
+				INFOPLIST_FILE = "Words.2/Words.2-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1906DF9E180E6D7300105FE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Words.2/Words.2-Prefix.pch";
+				INFOPLIST_FILE = "Words.2/Words.2-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1906DF75180E6D7100105FE5 /* Build configuration list for PBXProject "Words.2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1906DF9A180E6D7300105FE5 /* Debug */,
+				1906DF9B180E6D7300105FE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1906DF9C180E6D7300105FE5 /* Build configuration list for PBXNativeTarget "Words.2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1906DF9D180E6D7300105FE5 /* Debug */,
+				1906DF9E180E6D7300105FE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1906DF97180E6D7300105FE5 /* Words_2.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1906DF98180E6D7300105FE5 /* Words_2.xcdatamodel */,
+			);
+			currentVersion = 1906DF98180E6D7300105FE5 /* Words_2.xcdatamodel */;
+			path = Words_2.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 1906DF72180E6D7100105FE5 /* Project object */;
+}
